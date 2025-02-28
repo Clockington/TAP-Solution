@@ -34,11 +34,13 @@
             viewToolStripMenuItem = new ToolStripMenuItem();
             toolsToolStripMenuItem = new ToolStripMenuItem();
             helpToolStripMenuItem = new ToolStripMenuItem();
+            quitToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // statusStrip1
             // 
+            statusStrip1.BackColor = SystemColors.ActiveBorder;
             statusStrip1.Location = new Point(0, 419);
             statusStrip1.Name = "statusStrip1";
             statusStrip1.Size = new Size(838, 22);
@@ -47,6 +49,7 @@
             // 
             // menuStrip1
             // 
+            menuStrip1.BackColor = SystemColors.ActiveBorder;
             menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, viewToolStripMenuItem, toolsToolStripMenuItem, helpToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
@@ -56,6 +59,7 @@
             // 
             // fileToolStripMenuItem
             // 
+            fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { quitToolStripMenuItem });
             fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             fileToolStripMenuItem.Size = new Size(37, 20);
             fileToolStripMenuItem.Text = "File";
@@ -78,11 +82,20 @@
             helpToolStripMenuItem.Size = new Size(44, 20);
             helpToolStripMenuItem.Text = "Help";
             // 
+            // quitToolStripMenuItem
+            // 
+            quitToolStripMenuItem.Name = "quitToolStripMenuItem";
+            quitToolStripMenuItem.ShortcutKeys = Keys.Alt | Keys.F4;
+            quitToolStripMenuItem.Size = new Size(180, 22);
+            quitToolStripMenuItem.Text = "Quit";
+            // 
             // MainInterface
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            BackgroundImage = Properties.Resources._1798homeworld1920x1200__2019_06_15_02_55_05_UTC_;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(838, 441);
             Controls.Add(statusStrip1);
             Controls.Add(menuStrip1);
@@ -105,5 +118,6 @@
         private ToolStripMenuItem viewToolStripMenuItem;
         private ToolStripMenuItem toolsToolStripMenuItem;
         private ToolStripMenuItem helpToolStripMenuItem;
+        private ToolStripMenuItem quitToolStripMenuItem;
     }
 }

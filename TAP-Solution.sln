@@ -5,6 +5,8 @@ VisualStudioVersion = 17.13.35825.156 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025TAP", "2025TAP\2025TAP.csproj", "{1A69248E-A7CC-4AAB-B931-44148375F0AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arithmetics", "Arithmetics\Arithmetics.csproj", "{91DF683F-09CC-42DA-92B4-15B78F5A57FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1A69248E-A7CC-4AAB-B931-44148375F0AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A69248E-A7CC-4AAB-B931-44148375F0AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A69248E-A7CC-4AAB-B931-44148375F0AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DF683F-09CC-42DA-92B4-15B78F5A57FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DF683F-09CC-42DA-92B4-15B78F5A57FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DF683F-09CC-42DA-92B4-15B78F5A57FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DF683F-09CC-42DA-92B4-15B78F5A57FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
