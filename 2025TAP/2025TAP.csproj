@@ -25,8 +25,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Unit 2\" />
     <Folder Include="Unit 1\U1P3\" />
+    <Folder Include="Unit 2\U2P1\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Arithmetics\Arithmetics.csproj" />
+    <ProjectReference Include="..\CustomButton\CustomButton.csproj" />
   </ItemGroup>
 
 </Project>
