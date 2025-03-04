@@ -24,4 +24,9 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Unit 2\" />
+    <Folder Include="Unit 1\U1P3\" />
+  </ItemGroup>
+
 </Project>
