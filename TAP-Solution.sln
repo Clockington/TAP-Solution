@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arithmetics", "Arithmetics\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomButton", "CustomButton\CustomButton.csproj", "{7DA590AB-43E9-4B09-BA9B-4F00E7041A0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomPictureBox", "CustomPictureBox\CustomPictureBox.csproj", "{BC39ED39-6C55-43C2-AF2A-1BA2BB0085BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControlPanel", "CustomControlPanel\CustomControlPanel.csproj", "{B54DE0C0-BF4C-4FA0-9373-3BC322F704F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{7DA590AB-43E9-4B09-BA9B-4F00E7041A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DA590AB-43E9-4B09-BA9B-4F00E7041A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DA590AB-43E9-4B09-BA9B-4F00E7041A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC39ED39-6C55-43C2-AF2A-1BA2BB0085BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC39ED39-6C55-43C2-AF2A-1BA2BB0085BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC39ED39-6C55-43C2-AF2A-1BA2BB0085BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC39ED39-6C55-43C2-AF2A-1BA2BB0085BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B54DE0C0-BF4C-4FA0-9373-3BC322F704F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B54DE0C0-BF4C-4FA0-9373-3BC322F704F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B54DE0C0-BF4C-4FA0-9373-3BC322F704F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B54DE0C0-BF4C-4FA0-9373-3BC322F704F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

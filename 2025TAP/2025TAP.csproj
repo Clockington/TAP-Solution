@@ -32,6 +32,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Arithmetics\Arithmetics.csproj" />
     <ProjectReference Include="..\CustomButton\CustomButton.csproj" />
+    <ProjectReference Include="..\CustomControlPanel\CustomControlPanel.csproj" />
   </ItemGroup>
 
 </Project>
