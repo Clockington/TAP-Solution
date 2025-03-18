@@ -10,6 +10,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <EmbeddedResource Remove="Unit 1\U1P3\U1P3Images.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -25,7 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Unit 1\U1P3\" />
+    <Folder Include="Unit 1\U1P2\" />
     <Folder Include="Unit 2\U2P1\" />
   </ItemGroup>
 
@@ -33,6 +37,13 @@
     <ProjectReference Include="..\Arithmetics\Arithmetics.csproj" />
     <ProjectReference Include="..\CustomButton\CustomButton.csproj" />
     <ProjectReference Include="..\CustomControlPanel\CustomControlPanel.csproj" />
+    <ProjectReference Include="..\CustomPictureBox\CustomPictureBox.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Unit 1\U1P3\U1P3Images.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

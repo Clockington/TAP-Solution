@@ -1,4 +1,5 @@
-﻿namespace CustomPictureBox
+﻿
+namespace CustomPictureBox
 {
     partial class MyPictureBox
     {
@@ -6,6 +7,7 @@
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
+        private AutoScaleMode AutoScaleMode;
 
         /// <summary>
         /// Clean up any resources being used.
