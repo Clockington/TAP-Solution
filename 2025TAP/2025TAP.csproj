@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <EmbeddedResource Remove="Unit 1\U1P3\U1P3Images.resx" />
+    <EmbeddedResource Remove="Unit 1\U1P4\U1P4SalaryCalculator.resx" />
   </ItemGroup>
 
   <ItemGroup>
@@ -44,6 +45,7 @@
     <Resource Include="Unit 1\U1P3\U1P3Images.resx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Unit 1\U1P4\U1P4SalaryCalculator.resx" />
   </ItemGroup>
 
 </Project>

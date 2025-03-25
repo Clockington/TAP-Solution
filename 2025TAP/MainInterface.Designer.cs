@@ -46,13 +46,17 @@
             btnU1P2 = new Button();
             btnU1P1 = new Button();
             groupBox2 = new GroupBox();
+            btnU2P4 = new Button();
             btnU2P3 = new Button();
             btnU2P2 = new Button();
             btnU2P1 = new Button();
-            btnU2P4 = new Button();
+            groupBox3 = new GroupBox();
+            btnU3P2 = new Button();
+            btnU3P1 = new Button();
             menuStrip1.SuspendLayout();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
+            groupBox3.SuspendLayout();
             SuspendLayout();
             // 
             // statusStrip1
@@ -167,14 +171,14 @@
             // 
             // btnU1P4
             // 
-            btnU1P4.BackColor = Color.IndianRed;
-            btnU1P4.Enabled = false;
+            btnU1P4.BackColor = Color.LimeGreen;
             btnU1P4.Location = new Point(15, 140);
             btnU1P4.Name = "btnU1P4";
             btnU1P4.Size = new Size(100, 30);
             btnU1P4.TabIndex = 3;
             btnU1P4.Text = "Practica 4";
             btnU1P4.UseVisualStyleBackColor = false;
+            btnU1P4.Click += btnU1P4_Click;
             // 
             // btnU1P3
             // 
@@ -217,12 +221,23 @@
             groupBox2.Controls.Add(btnU2P3);
             groupBox2.Controls.Add(btnU2P2);
             groupBox2.Controls.Add(btnU2P1);
-            groupBox2.Location = new Point(157, 35);
+            groupBox2.Location = new Point(160, 35);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(130, 300);
             groupBox2.TabIndex = 3;
             groupBox2.TabStop = false;
             groupBox2.Text = "Unidad 2";
+            // 
+            // btnU2P4
+            // 
+            btnU2P4.BackColor = Color.LimeGreen;
+            btnU2P4.Location = new Point(15, 140);
+            btnU2P4.Name = "btnU2P4";
+            btnU2P4.Size = new Size(100, 30);
+            btnU2P4.TabIndex = 3;
+            btnU2P4.Text = "Practica 4";
+            btnU2P4.UseVisualStyleBackColor = false;
+            btnU2P4.Click += btnU2P4_Click;
             // 
             // btnU2P3
             // 
@@ -257,16 +272,38 @@
             btnU2P1.Text = "Practica 1";
             btnU2P1.UseVisualStyleBackColor = false;
             // 
-            // btnU2P4
+            // groupBox3
             // 
-            btnU2P4.BackColor = Color.LimeGreen;
-            btnU2P4.Location = new Point(15, 140);
-            btnU2P4.Name = "btnU2P4";
-            btnU2P4.Size = new Size(100, 30);
-            btnU2P4.TabIndex = 3;
-            btnU2P4.Text = "Practica 4";
-            btnU2P4.UseVisualStyleBackColor = false;
-            btnU2P4.Click += btnU2P4_Click;
+            groupBox3.BackColor = Color.Transparent;
+            groupBox3.Controls.Add(btnU3P2);
+            groupBox3.Controls.Add(btnU3P1);
+            groupBox3.Location = new Point(310, 35);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Size = new Size(130, 300);
+            groupBox3.TabIndex = 4;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "Unidad 3";
+            // 
+            // btnU3P2
+            // 
+            btnU3P2.BackColor = Color.LimeGreen;
+            btnU3P2.Location = new Point(15, 60);
+            btnU3P2.Name = "btnU3P2";
+            btnU3P2.Size = new Size(100, 30);
+            btnU3P2.TabIndex = 1;
+            btnU3P2.Text = "Practica 2";
+            btnU3P2.UseVisualStyleBackColor = false;
+            // 
+            // btnU3P1
+            // 
+            btnU3P1.BackColor = Color.LimeGreen;
+            btnU3P1.Location = new Point(15, 20);
+            btnU3P1.Name = "btnU3P1";
+            btnU3P1.Size = new Size(100, 30);
+            btnU3P1.TabIndex = 0;
+            btnU3P1.Text = "Practica 1";
+            btnU3P1.UseVisualStyleBackColor = false;
+            btnU3P1.Click += btnU3P1_Click;
             // 
             // MainInterface
             // 
@@ -276,6 +313,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(837, 369);
+            Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Controls.Add(statusStrip1);
@@ -289,6 +327,7 @@
             menuStrip1.PerformLayout();
             groupBox1.ResumeLayout(false);
             groupBox2.ResumeLayout(false);
+            groupBox3.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -316,5 +355,8 @@
         private Button btnU2P1;
         private Button btnU2P3;
         private Button btnU2P4;
+        private GroupBox groupBox3;
+        private Button btnU3P2;
+        private Button btnU3P1;
     }
 }
